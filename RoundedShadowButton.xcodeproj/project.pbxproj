@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4099E281219D885C0065A2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4099E280219D885C0065A2BF /* AppDelegate.swift */; };
+		4099E283219D885C0065A2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4099E282219D885C0065A2BF /* ViewController.swift */; };
+		4099E286219D885C0065A2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4099E284219D885C0065A2BF /* Main.storyboard */; };
+		4099E2AF219D89310065A2BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4099E2AE219D89310065A2BF /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4099E292219D885E0065A2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4099E275219D885C0065A2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4099E27C219D885C0065A2BF;
+			remoteInfo = RoundedShadowButton;
+		};
+		4099E29D219D885E0065A2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4099E275219D885C0065A2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4099E27C219D885C0065A2BF;
+			remoteInfo = RoundedShadowButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4099E27D219D885C0065A2BF /* RoundedShadowButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedShadowButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4099E280219D885C0065A2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4099E282219D885C0065A2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4099E285219D885C0065A2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4099E28C219D885E0065A2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4099E291219D885E0065A2BF /* RoundedShadowButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedShadowButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4099E29C219D885E0065A2BF /* RoundedShadowButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedShadowButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4099E2AE219D89310065A2BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4099E27A219D885C0065A2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099E28E219D885E0065A2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099E299219D885E0065A2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4099E274219D885C0065A2BF = {
+			isa = PBXGroup;
+			children = (
+				4099E27F219D885C0065A2BF /* RoundedShadowButton */,
+				4099E27E219D885C0065A2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4099E27E219D885C0065A2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4099E27D219D885C0065A2BF /* RoundedShadowButton.app */,
+				4099E291219D885E0065A2BF /* RoundedShadowButtonTests.xctest */,
+				4099E29C219D885E0065A2BF /* RoundedShadowButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4099E27F219D885C0065A2BF /* RoundedShadowButton */ = {
+			isa = PBXGroup;
+			children = (
+				4099E280219D885C0065A2BF /* AppDelegate.swift */,
+				4099E282219D885C0065A2BF /* ViewController.swift */,
+				4099E2AE219D89310065A2BF /* Extensions.swift */,
+				4099E284219D885C0065A2BF /* Main.storyboard */,
+				4099E28C219D885E0065A2BF /* Info.plist */,
+			);
+			path = RoundedShadowButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4099E27C219D885C0065A2BF /* RoundedShadowButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4099E2A5219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButton" */;
+			buildPhases = (
+				4099E279219D885C0065A2BF /* Sources */,
+				4099E27A219D885C0065A2BF /* Frameworks */,
+				4099E27B219D885C0065A2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedShadowButton;
+			productName = RoundedShadowButton;
+			productReference = 4099E27D219D885C0065A2BF /* RoundedShadowButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4099E290219D885E0065A2BF /* RoundedShadowButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4099E2A8219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonTests" */;
+			buildPhases = (
+				4099E28D219D885E0065A2BF /* Sources */,
+				4099E28E219D885E0065A2BF /* Frameworks */,
+				4099E28F219D885E0065A2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4099E293219D885E0065A2BF /* PBXTargetDependency */,
+			);
+			name = RoundedShadowButtonTests;
+			productName = RoundedShadowButtonTests;
+			productReference = 4099E291219D885E0065A2BF /* RoundedShadowButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4099E29B219D885E0065A2BF /* RoundedShadowButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4099E2AB219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonUITests" */;
+			buildPhases = (
+				4099E298219D885E0065A2BF /* Sources */,
+				4099E299219D885E0065A2BF /* Frameworks */,
+				4099E29A219D885E0065A2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4099E29E219D885E0065A2BF /* PBXTargetDependency */,
+			);
+			name = RoundedShadowButtonUITests;
+			productName = RoundedShadowButtonUITests;
+			productReference = 4099E29C219D885E0065A2BF /* RoundedShadowButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4099E275219D885C0065A2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sergey Grischyov";
+				TargetAttributes = {
+					4099E27C219D885C0065A2BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4099E290219D885E0065A2BF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4099E27C219D885C0065A2BF;
+					};
+					4099E29B219D885E0065A2BF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4099E27C219D885C0065A2BF;
+					};
+				};
+			};
+			buildConfigurationList = 4099E278219D885C0065A2BF /* Build configuration list for PBXProject "RoundedShadowButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4099E274219D885C0065A2BF;
+			productRefGroup = 4099E27E219D885C0065A2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4099E27C219D885C0065A2BF /* RoundedShadowButton */,
+				4099E290219D885E0065A2BF /* RoundedShadowButtonTests */,
+				4099E29B219D885E0065A2BF /* RoundedShadowButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4099E27B219D885C0065A2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4099E286219D885C0065A2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099E28F219D885E0065A2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099E29A219D885E0065A2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4099E279219D885C0065A2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4099E283219D885C0065A2BF /* ViewController.swift in Sources */,
+				4099E2AF219D89310065A2BF /* Extensions.swift in Sources */,
+				4099E281219D885C0065A2BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099E28D219D885E0065A2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4099E298219D885E0065A2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4099E293219D885E0065A2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4099E27C219D885C0065A2BF /* RoundedShadowButton */;
+			targetProxy = 4099E292219D885E0065A2BF /* PBXContainerItemProxy */;
+		};
+		4099E29E219D885E0065A2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4099E27C219D885C0065A2BF /* RoundedShadowButton */;
+			targetProxy = 4099E29D219D885E0065A2BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4099E284219D885C0065A2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4099E285219D885C0065A2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4099E2A3219D885E0065A2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4099E2A4219D885E0065A2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4099E2A6219D885E0065A2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RoundedShadowButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4099E2A7219D885E0065A2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RoundedShadowButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4099E2A9219D885E0065A2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoundedShadowButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundedShadowButton.app/RoundedShadowButton";
+			};
+			name = Debug;
+		};
+		4099E2AA219D885E0065A2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoundedShadowButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundedShadowButton.app/RoundedShadowButton";
+			};
+			name = Release;
+		};
+		4099E2AC219D885E0065A2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoundedShadowButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoundedShadowButton;
+			};
+			name = Debug;
+		};
+		4099E2AD219D885E0065A2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoundedShadowButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoundedShadowButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4099E278219D885C0065A2BF /* Build configuration list for PBXProject "RoundedShadowButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4099E2A3219D885E0065A2BF /* Debug */,
+				4099E2A4219D885E0065A2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4099E2A5219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4099E2A6219D885E0065A2BF /* Debug */,
+				4099E2A7219D885E0065A2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4099E2A8219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4099E2A9219D885E0065A2BF /* Debug */,
+				4099E2AA219D885E0065A2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4099E2AB219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4099E2AC219D885E0065A2BF /* Debug */,
+				4099E2AD219D885E0065A2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4099E275219D885C0065A2BF /* Project object */;
+}
