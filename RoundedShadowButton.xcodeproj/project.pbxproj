@@ -13,50 +13,17 @@
 		4099E2AF219D89310065A2BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4099E2AE219D89310065A2BF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4099E292219D885E0065A2BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4099E275219D885C0065A2BF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4099E27C219D885C0065A2BF;
-			remoteInfo = RoundedShadowButton;
-		};
-		4099E29D219D885E0065A2BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4099E275219D885C0065A2BF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4099E27C219D885C0065A2BF;
-			remoteInfo = RoundedShadowButton;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4099E27D219D885C0065A2BF /* RoundedShadowButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedShadowButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4099E280219D885C0065A2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4099E282219D885C0065A2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4099E285219D885C0065A2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4099E28C219D885E0065A2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4099E291219D885E0065A2BF /* RoundedShadowButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedShadowButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4099E29C219D885E0065A2BF /* RoundedShadowButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedShadowButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4099E2AE219D89310065A2BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4099E27A219D885C0065A2BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4099E28E219D885E0065A2BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4099E299219D885E0065A2BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				4099E27D219D885C0065A2BF /* RoundedShadowButton.app */,
-				4099E291219D885E0065A2BF /* RoundedShadowButtonTests.xctest */,
-				4099E29C219D885E0065A2BF /* RoundedShadowButtonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,42 +81,6 @@
 			productReference = 4099E27D219D885C0065A2BF /* RoundedShadowButton.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4099E290219D885E0065A2BF /* RoundedShadowButtonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4099E2A8219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonTests" */;
-			buildPhases = (
-				4099E28D219D885E0065A2BF /* Sources */,
-				4099E28E219D885E0065A2BF /* Frameworks */,
-				4099E28F219D885E0065A2BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4099E293219D885E0065A2BF /* PBXTargetDependency */,
-			);
-			name = RoundedShadowButtonTests;
-			productName = RoundedShadowButtonTests;
-			productReference = 4099E291219D885E0065A2BF /* RoundedShadowButtonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4099E29B219D885E0065A2BF /* RoundedShadowButtonUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4099E2AB219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonUITests" */;
-			buildPhases = (
-				4099E298219D885E0065A2BF /* Sources */,
-				4099E299219D885E0065A2BF /* Frameworks */,
-				4099E29A219D885E0065A2BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4099E29E219D885E0065A2BF /* PBXTargetDependency */,
-			);
-			name = RoundedShadowButtonUITests;
-			productName = RoundedShadowButtonUITests;
-			productReference = 4099E29C219D885E0065A2BF /* RoundedShadowButtonUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,14 +93,7 @@
 				TargetAttributes = {
 					4099E27C219D885C0065A2BF = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					4099E290219D885E0065A2BF = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 4099E27C219D885C0065A2BF;
-					};
-					4099E29B219D885E0065A2BF = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 4099E27C219D885C0065A2BF;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -189,8 +111,6 @@
 			projectRoot = "";
 			targets = (
 				4099E27C219D885C0065A2BF /* RoundedShadowButton */,
-				4099E290219D885E0065A2BF /* RoundedShadowButtonTests */,
-				4099E29B219D885E0065A2BF /* RoundedShadowButtonUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,20 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4099E286219D885C0065A2BF /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4099E28F219D885E0065A2BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4099E29A219D885E0065A2BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,34 +137,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4099E28D219D885E0065A2BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4099E298219D885E0065A2BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4099E293219D885E0065A2BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4099E27C219D885C0065A2BF /* RoundedShadowButton */;
-			targetProxy = 4099E292219D885E0065A2BF /* PBXContainerItemProxy */;
-		};
-		4099E29E219D885E0065A2BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4099E27C219D885C0065A2BF /* RoundedShadowButton */;
-			targetProxy = 4099E29D219D885E0065A2BF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4099E284219D885C0065A2BF /* Main.storyboard */ = {
@@ -402,7 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -421,86 +300,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4099E2A9219D885E0065A2BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RoundedShadowButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundedShadowButton.app/RoundedShadowButton";
-			};
-			name = Debug;
-		};
-		4099E2AA219D885E0065A2BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RoundedShadowButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundedShadowButton.app/RoundedShadowButton";
-			};
-			name = Release;
-		};
-		4099E2AC219D885E0065A2BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RoundedShadowButtonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RoundedShadowButton;
-			};
-			name = Debug;
-		};
-		4099E2AD219D885E0065A2BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RoundedShadowButtonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ShadeApps.RoundedShadowButtonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RoundedShadowButton;
 			};
 			name = Release;
 		};
@@ -521,24 +322,6 @@
 			buildConfigurations = (
 				4099E2A6219D885E0065A2BF /* Debug */,
 				4099E2A7219D885E0065A2BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4099E2A8219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4099E2A9219D885E0065A2BF /* Debug */,
-				4099E2AA219D885E0065A2BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4099E2AB219D885E0065A2BF /* Build configuration list for PBXNativeTarget "RoundedShadowButtonUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4099E2AC219D885E0065A2BF /* Debug */,
-				4099E2AD219D885E0065A2BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
